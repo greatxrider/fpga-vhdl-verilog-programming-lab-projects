@@ -1,0 +1,20 @@
+|vendo_2p
+clk => change~reg0.CLK
+clk => disp~reg0.CLK
+clk => cstate[0]~reg0.CLK
+clk => cstate[1]~reg0.CLK
+clk => cstate[2]~reg0.CLK
+reset => cstate.OUTPUTSELECT
+reset => cstate.OUTPUTSELECT
+reset => cstate.OUTPUTSELECT
+p1 => Equal0.IN2
+p1 => Equal1.IN2
+p5 => Equal0.IN3
+p5 => Equal1.IN3
+disp <= disp~reg0.DB_MAX_OUTPUT_PORT_TYPE
+change <= change~reg0.DB_MAX_OUTPUT_PORT_TYPE
+cstate[0] <= cstate[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+cstate[1] <= cstate[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+cstate[2] <= cstate[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

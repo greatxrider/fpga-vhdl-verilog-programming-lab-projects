@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/dalig/Desktop/QUARTUS-SIMULATION/Down Counter/simulation/modelsim
+vcounter
+!s110 1642706160
+!i10b 1
+!s100 30G9lDSVH??]UF[olD=YB2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Idz]W`OEO0ofZSSnN4IGPH0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1642705391
+8C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Down Counter/counter.v
+FC:/Users/dalig/Desktop/QUARTUS-SIMULATION/Down Counter/counter.v
+!i122 0
+L0 7 61
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z4 !s108 1642706160.000000
+!s107 C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Down Counter/counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Down Counter|C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Down Counter/counter.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Down Counter}
+Z7 tCvgOpt 0
+vcounter_tb
+!s110 1642706161
+!i10b 1
+!s100 D0_N0a8PQPelQK5CzNCJI1
+R1
+IUVOX6YVU0XZXEkbV@X<jc3
+R2
+R0
+w1642705851
+8C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Down Counter/counter_tb.v
+FC:/Users/dalig/Desktop/QUARTUS-SIMULATION/Down Counter/counter_tb.v
+!i122 1
+L0 8 33
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Down Counter/counter_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Down Counter|C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Down Counter/counter_tb.v|
+!i113 1
+R5
+R6
+R7

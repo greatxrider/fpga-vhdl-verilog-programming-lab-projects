@@ -1,0 +1,63 @@
+//************************************//
+//    2P Vending Machine Testbench    //
+//       Jeph Mari M. Daligdig        //
+//************************************//
+
+`timescale 1ns/1ps
+module vendo_2p_testbench ();
+
+reg reset;
+reg clk;
+reg p1;
+reg p5;
+
+wire disp;
+wire change;
+wire [2:0] cstate;
+
+initial
+begin
+	clk = 0;
+	p5 = 1;
+	p1 = 1;
+	reset = 0;
+#10 reset = 1;
+#10 reset = 0;
+#10 p1 = 0;
+#20 p1 = 1;
+#10 reset = 1;
+#10 reset = 0;
+#10 p5 = 0;
+#10 p5 = 1;
+#40 reset = 1;
+#10 reset = 0;
+#10 p1 = 0;
+#10 p1 = 1;
+    p5 = 0;
+#10 p5 = 1;
+#30 reset = 1;
+#10 reset = 0;
+#10 $finish;
+end
+
+always #5 clk = ~clk;
+
+// Main code intantiation
+vendo_2p dut(.clk(clk),
+	      .reset(reset),
+	      .p1(p1),
+	      .p5(p5),
+	      .disp(disp),
+	      .change(change),
+	      .cstate(cstate));
+endmodule
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/dalig/Desktop/QUARTUS-SIMULATION/Vending Machine 3p/simulation/modelsim
+vvendo_3p
+!s110 1642748578
+!i10b 1
+!s100 T@7g^QKBNEEb_WkiAZgVk1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IN[6KRn`CG2S62BBoI;jo<1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1642748329
+8C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Vending Machine 3p/vendo_3p.v
+FC:/Users/dalig/Desktop/QUARTUS-SIMULATION/Vending Machine 3p/vendo_3p.v
+!i122 0
+L0 7 103
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1642748578.000000
+!s107 C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Vending Machine 3p/vendo_3p.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Vending Machine 3p|C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Vending Machine 3p/vendo_3p.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work {+incdir+C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Vending Machine 3p}
+Z6 tCvgOpt 0
+vvendo_3p_tb
+!s110 1642748579
+!i10b 1
+!s100 IEU[C=GV0R>RXZcJ;NIR:0
+R1
+I;]Hj]NUeAR71Hk8hEd:j83
+R2
+R0
+w1642747983
+8C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Vending Machine 3p/vendo_3p_tb.v
+FC:/Users/dalig/Desktop/QUARTUS-SIMULATION/Vending Machine 3p/vendo_3p_tb.v
+!i122 1
+L0 8 54
+R3
+r1
+!s85 0
+31
+!s108 1642748579.000000
+!s107 C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Vending Machine 3p/vendo_3p_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Vending Machine 3p|C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Vending Machine 3p/vendo_3p_tb.v|
+!i113 1
+R4
+R5
+R6

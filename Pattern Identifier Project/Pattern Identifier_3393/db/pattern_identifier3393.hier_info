@@ -1,0 +1,40 @@
+|pattern_identifier3393
+clk => state[0]~reg0.CLK
+clk => state[1]~reg0.CLK
+clk => state[2]~reg0.CLK
+clk => state[3]~reg0.CLK
+clk => state[4]~reg0.CLK
+state[0] <= state[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state[1] <= state[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state[2] <= state[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state[3] <= state[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state[4] <= state[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_in[0] => Equal0.IN1
+data_in[0] => Equal1.IN1
+data_in[1] => Equal0.IN0
+data_in[1] => Equal1.IN31
+data_in[2] => Equal0.IN31
+data_in[2] => Equal1.IN30
+data_in[3] => Equal0.IN30
+data_in[3] => Equal1.IN0
+data_in[4] => Equal0.IN29
+data_in[4] => Equal1.IN29
+data_in[5] => Equal0.IN28
+data_in[5] => Equal1.IN28
+data_in[6] => Equal0.IN27
+data_in[6] => Equal1.IN27
+data_in[7] => Equal0.IN26
+data_in[7] => Equal1.IN26
+data_in[8] => Equal0.IN25
+data_in[8] => Equal1.IN25
+hit <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+rst_n => state.OUTPUTSELECT
+rst_n => state.OUTPUTSELECT
+rst_n => state.OUTPUTSELECT
+next_state[0] <= Selector1.DB_MAX_OUTPUT_PORT_TYPE
+next_state[1] <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+next_state[2] <= next_state.DB_MAX_OUTPUT_PORT_TYPE
+next_state[3] <= <GND>
+next_state[4] <= <GND>
+
+

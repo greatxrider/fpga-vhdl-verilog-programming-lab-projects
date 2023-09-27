@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/dalig/Desktop/QUARTUS-SIMULATION/Pattern Identifier_3393/simulation/modelsim
+vpattern_identifier3393
+!s110 1642754221
+!i10b 1
+!s100 9Se<?80;WTFb5GFi<I6^12
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I=GG99zOeL`Ea4De^;HLiW1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1642753597
+8C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Pattern Identifier_3393/pattern_identifier3393.v
+FC:/Users/dalig/Desktop/QUARTUS-SIMULATION/Pattern Identifier_3393/pattern_identifier3393.v
+!i122 0
+L0 7 125
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1642754221.000000
+!s107 C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Pattern Identifier_3393/pattern_identifier3393.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Pattern Identifier_3393|C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Pattern Identifier_3393/pattern_identifier3393.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work {+incdir+C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Pattern Identifier_3393}
+Z6 tCvgOpt 0
+vpattern_identifier3393_tb
+!s110 1642754222
+!i10b 1
+!s100 dGXAnPRD@SBT0]biLjZJ63
+R1
+IX>1381YlO2dZRYj;Sf=f_3
+R2
+R0
+w1642753830
+8C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Pattern Identifier_3393/pattern_identifier3393_tb.v
+FC:/Users/dalig/Desktop/QUARTUS-SIMULATION/Pattern Identifier_3393/pattern_identifier3393_tb.v
+!i122 1
+L0 8 63
+R3
+r1
+!s85 0
+31
+!s108 1642754222.000000
+!s107 C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Pattern Identifier_3393/pattern_identifier3393_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Pattern Identifier_3393|C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Pattern Identifier_3393/pattern_identifier3393_tb.v|
+!i113 1
+R4
+R5
+R6

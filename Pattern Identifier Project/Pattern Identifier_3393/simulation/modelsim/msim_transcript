@@ -1,0 +1,59 @@
+# Reading pref.tcl
+# do pattern_identifier3393_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Pattern\ Identifier_3393 {C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Pattern Identifier_3393/pattern_identifier3393.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:37:01 on Jan 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Pattern Identifier_3393" C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Pattern Identifier_3393/pattern_identifier3393.v 
+# -- Compiling module pattern_identifier3393
+# 
+# Top level modules:
+# 	pattern_identifier3393
+# End time: 16:37:01 on Jan 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Pattern\ Identifier_3393 {C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Pattern Identifier_3393/pattern_identifier3393_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:37:02 on Jan 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Pattern Identifier_3393" C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Pattern Identifier_3393/pattern_identifier3393_tb.v 
+# -- Compiling module pattern_identifier3393_tb
+# 
+# Top level modules:
+# 	pattern_identifier3393_tb
+# End time: 16:37:02 on Jan 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  pattern_identifier3393_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" pattern_identifier3393_tb 
+# Start time: 16:37:02 on Jan 21,2022
+# Loading work.pattern_identifier3393_tb
+# Loading work.pattern_identifier3393
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Break key hit
+# Simulation stop requested.
+# End time: 16:55:10 on Jan 21,2022, Elapsed time: 0:18:08
+# Errors: 0, Warnings: 0

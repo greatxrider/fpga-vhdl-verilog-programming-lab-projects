@@ -1,0 +1,125 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "flag",
+					"strict" : false
+				},
+				{
+					"name" : "flag_count[0]",
+					"strict" : false
+				},
+				{
+					"name" : "flag_count[1]",
+					"strict" : false
+				},
+				{
+					"name" : "flag_count[2]",
+					"strict" : false
+				},
+				{
+					"name" : "flag_count[3]",
+					"strict" : false
+				},
+				{
+					"name" : "flag_count[4]",
+					"strict" : false
+				},
+				{
+					"name" : "flag_count[5]",
+					"strict" : false
+				},
+				{
+					"name" : "flag_count[6]",
+					"strict" : false
+				},
+				{
+					"name" : "flag_count[7]",
+					"strict" : false
+				},
+				{
+					"name" : "count[0]",
+					"strict" : false
+				},
+				{
+					"name" : "count[1]",
+					"strict" : false
+				},
+				{
+					"name" : "count[2]",
+					"strict" : false
+				},
+				{
+					"name" : "count[3]",
+					"strict" : false
+				},
+				{
+					"name" : "count[4]",
+					"strict" : false
+				},
+				{
+					"name" : "count[5]",
+					"strict" : false
+				},
+				{
+					"name" : "count[6]",
+					"strict" : false
+				},
+				{
+					"name" : "count[7]",
+					"strict" : false
+				},
+				{
+					"name" : "zero",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "in[5]",
+					"strict" : false
+				},
+				{
+					"name" : "rst_n",
+					"strict" : false
+				},
+				{
+					"name" : "mode",
+					"strict" : false
+				},
+				{
+					"name" : "in[1]",
+					"strict" : false
+				},
+				{
+					"name" : "in[4]",
+					"strict" : false
+				},
+				{
+					"name" : "in[3]",
+					"strict" : false
+				},
+				{
+					"name" : "in[2]",
+					"strict" : false
+				},
+				{
+					"name" : "in[7]",
+					"strict" : false
+				},
+				{
+					"name" : "in[6]",
+					"strict" : false
+				},
+				{
+					"name" : "in[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

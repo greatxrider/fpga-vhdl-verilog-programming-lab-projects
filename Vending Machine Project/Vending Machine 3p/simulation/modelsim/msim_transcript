@@ -1,0 +1,52 @@
+# Reading pref.tcl
+# do vendo_3p_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Vending\ Machine\ 3p {C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Vending Machine 3p/vendo_3p.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:02:58 on Jan 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Vending Machine 3p" C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Vending Machine 3p/vendo_3p.v 
+# -- Compiling module vendo_3p
+# 
+# Top level modules:
+# 	vendo_3p
+# End time: 15:02:58 on Jan 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Vending\ Machine\ 3p {C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Vending Machine 3p/vendo_3p_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:02:59 on Jan 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Vending Machine 3p" C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Vending Machine 3p/vendo_3p_tb.v 
+# -- Compiling module vendo_3p_tb
+# 
+# Top level modules:
+# 	vendo_3p_tb
+# End time: 15:02:59 on Jan 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  vendo_3p_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" vendo_3p_tb 
+# Start time: 15:02:59 on Jan 21,2022
+# Loading work.vendo_3p_tb
+# Loading work.vendo_3p
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $finish    : C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Vending Machine 3p/vendo_3p_tb.v(48)
+#    Time: 1050 ns  Iteration: 0  Instance: /vendo_3p_tb
+# 1
+# Break in Module vendo_3p_tb at C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Vending Machine 3p/vendo_3p_tb.v line 48
+# End time: 15:35:04 on Jan 21,2022, Elapsed time: 0:32:05
+# Errors: 0, Warnings: 0

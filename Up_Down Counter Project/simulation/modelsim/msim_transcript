@@ -1,0 +1,52 @@
+# Reading pref.tcl
+# do up_down_counter_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Up_Down\ Counter {C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Up_Down Counter/up_down_counter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:44:21 on Jan 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Up_Down Counter" C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Up_Down Counter/up_down_counter.v 
+# -- Compiling module up_down_counter
+# 
+# Top level modules:
+# 	up_down_counter
+# End time: 03:44:21 on Jan 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Up_Down\ Counter {C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Up_Down Counter/up_down_counter_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:44:21 on Jan 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Up_Down Counter" C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Up_Down Counter/up_down_counter_tb.v 
+# -- Compiling module up_down_counter_tb
+# 
+# Top level modules:
+# 	up_down_counter_tb
+# End time: 03:44:21 on Jan 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  up_down_counter_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" up_down_counter_tb 
+# Start time: 03:44:21 on Jan 21,2022
+# Loading work.up_down_counter_tb
+# Loading work.up_down_counter
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $finish    : C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Up_Down Counter/up_down_counter_tb.v(35)
+#    Time: 20101 ns  Iteration: 0  Instance: /up_down_counter_tb
+# 1
+# Break in Module up_down_counter_tb at C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Up_Down Counter/up_down_counter_tb.v line 35
+# End time: 03:50:49 on Jan 21,2022, Elapsed time: 0:06:28
+# Errors: 0, Warnings: 0

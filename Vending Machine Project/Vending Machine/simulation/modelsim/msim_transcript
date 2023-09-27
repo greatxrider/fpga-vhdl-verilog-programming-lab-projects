@@ -1,0 +1,73 @@
+# Reading pref.tcl
+# do vendo_2p_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Vending\ Machine {C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Vending Machine/vendo_2p.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:56:54 on Jan 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Vending Machine" C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Vending Machine/vendo_2p.v 
+# -- Compiling module vendo_2p
+# 
+# Top level modules:
+# 	vendo_2p
+# End time: 04:56:54 on Jan 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Vending\ Machine {C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Vending Machine/vendo_2p_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:56:54 on Jan 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Vending Machine" C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Vending Machine/vendo_2p_tb.v 
+# -- Compiling module vendo_2p_testbench
+# 
+# Top level modules:
+# 	vendo_2p_testbench
+# End time: 04:56:54 on Jan 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  vendo_2p_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" vendo_2p_tb 
+# Start time: 04:56:55 on Jan 21,2022
+# ** Error: (vsim-3170) Could not find 'vendo_2p_tb'.
+#         Searched libraries:
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/220model
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/sgate
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera_mf
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/cyclonev
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/cyclonev_hssi
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/cyclonev_pcie_hip
+#             C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Vending Machine/simulation/modelsim/rtl_work
+#             C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Vending Machine/simulation/modelsim/rtl_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./vendo_2p_run_msim_rtl_verilog.do PAUSED at line 12
+vsim work.vendo_2p_testbench
+# vsim work.vendo_2p_testbench 
+# Start time: 04:56:55 on Jan 21,2022
+# Loading work.vendo_2p_testbench
+# Loading work.vendo_2p
+vsim work.vendo_2p_testbench
+# End time: 04:57:08 on Jan 21,2022, Elapsed time: 0:00:13
+# Errors: 1, Warnings: 0
+# vsim work.vendo_2p_testbench 
+# Start time: 04:57:08 on Jan 21,2022
+# Loading work.vendo_2p_testbench
+# Loading work.vendo_2p
+add wave -position insertpoint sim:/vendo_2p_testbench/*
+run -all
+# ** Note: $finish    : C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Vending Machine/vendo_2p_tb.v(40)
+#    Time: 220 ns  Iteration: 0  Instance: /vendo_2p_testbench
+# 1
+# Break in Module vendo_2p_testbench at C:/Users/dalig/Desktop/QUARTUS-SIMULATION/Vending Machine/vendo_2p_tb.v line 40
+# End time: 05:00:45 on Jan 21,2022, Elapsed time: 0:03:37
+# Errors: 0, Warnings: 0
